@@ -1,0 +1,22 @@
+INSERT INTO `userinfo` (`id`,`moviesPicked`) VALUES (NULL,'$data');
+
+INSERT INTO `movies`(`movieid`, `title`, `genres`, `director`, `image`) VALUES (NULL,'test','test','test','test')
+DELETE FROM `movies` WHERE `movies`.`movieid` = 3"
+
+<!--
+<form method="post" action="includes/testSubmit.php">
+        <label for="options">Choose a movie:</label>
+        <select name="movies" id="movies">
+
+        <?php 
+        foreach ($array_title as $data) {
+            ?><option value="<?=$primKey?>"><?=$data?></option>
+            <?php
+        }
+?>
+</select>
+<input type="submit" name="submit" value="submit">
+</form>
+
+<br>
+    -->
